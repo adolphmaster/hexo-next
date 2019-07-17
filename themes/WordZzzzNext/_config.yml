@@ -168,7 +168,7 @@ toc:
   number: true
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -360,7 +360,7 @@ han: false
 #swiftype_key: iq-MyA_RWX5unhdM-oNs
 
 # Baidu Analytics ID
-baidu_analytics: 819efde8916ee50adad58000649e2172
+# baidu_analytics: 819efde8916ee50adad58000649e2172
 
 #baidu-site-verification: OkLU6g8asJ
 
@@ -388,10 +388,13 @@ changyan:
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
+# 基于leancloud的评论系统
 valine:
   enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  # your leancloud application appid
+  appid: vC2azvFEKPR8DSUbKBbGoQ7l-gzGzoHsz
+  # your leancloud application appkey
+  appkey: IUraGPrrrJlHRWouvOwlF6u2
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -544,9 +547,11 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: tnjOBN3eibs4dfP2s8dFMF8s-gzGzoHsz
-  app_key: tDaBF4vRsSyaeSk9vKOOow6E
+  enable: true
+#  app_id: tnjOBN3eibs4dfP2s8dFMF8s-gzGzoHsz
+#  app_key: tDaBF4vRsSyaeSk9vKOOow6E
+  app_id: vC2azvFEKPR8DSUbKBbGoQ7l-gzGzoHsz
+  app_key: IUraGPrrrJlHRWouvOwlF6u2
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -572,7 +577,7 @@ busuanzi_count:
   site_pv_header: <i class="fa fa-eye"></i>访问量 
   site_pv_footer: 次
   # custom pv span for one page only
-  page_pv: true
+  page_pv: false
   page_pv_header: <i class="fa fa-eye"></i> 阅读 
   page_pv_footer: 次
 

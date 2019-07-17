@@ -9,14 +9,7 @@ categories:
 tags:
   - Hexo
   - GitHub
-
 ---
 
-------
 
-- **转载请注明作者和出处：**
-- **文章地址：**
-- **编&emsp;&emsp;者：adolphMaster**
-
-------
 
