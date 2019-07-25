@@ -1,0 +1,2 @@
+1. 安装 hexo-wordcount
+npm i --save hexo-wordcount
