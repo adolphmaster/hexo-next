@@ -37,7 +37,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 2019
+  since: 2020
 
   # Icon between year and copyright info.
   icon: user
@@ -103,9 +103,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 
@@ -301,7 +301,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host: //fonts.cat.net
+  host: //fonts.googleapis.com
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -311,7 +311,7 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: Roboto Slab
+    family: Open Sans
     size: 16px
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
