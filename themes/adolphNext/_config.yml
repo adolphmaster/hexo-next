@@ -93,7 +93,8 @@ menu:
 #  schedule: /schedule || schedule
 #  sitemap: /sitemap.xml || sitemap
 
-
+menu_settings:
+  badges: true #默认是false
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
@@ -103,9 +104,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 
 
 
@@ -174,7 +175,7 @@ toc:
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
-#creative_commons:
+creative_commons: by-nc-sa
 
 sidebar:
   # Sidebar Position, available value: left | right (only for Pisces | Gemini).
